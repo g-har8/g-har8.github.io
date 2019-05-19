@@ -1,0 +1,79 @@
+#conteyner{
+	margin: 76px auto 20px auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-gap: 20px;
+	grid-template-rows: repeat(1, auto);
+}
+#arts{
+	grid-column: 1 / 14;
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	grid-gap: 15px;
+	grid-template-rows: repeat(5, auto);
+}
+.arts{
+	background: #FFF;
+	opacity: 0.7;
+	border-radius: 3px;
+	padding: 0 10px;
+}
+#li1{
+	grid-column: 1 / 8;
+	grid-row: 1;
+}
+#li2{
+	grid-column: 8 / 15;
+	grid-row: 1;
+}
+#li3{
+	grid-column: 1 / 8;
+	grid-row: 2;
+}
+#li4{
+	grid-column: 8 / 15;
+	grid-row: 2;
+}
+#li5{
+	grid-column: 1 / 8;
+	grid-row: 3;
+}
+#li6{
+	grid-column: 8 / 15;
+	grid-row: 3;
+}
+#li7{
+	grid-column: 1 / 8;
+	grid-row: 4;
+}
+#li8{
+	grid-column: 8 / 15;
+	grid-row: 4;
+}
+#li9{
+	grid-column: 1 / 8;
+	grid-row: 5;
+}
+#li10{
+	grid-column: 8 / 15;
+	grid-row: 5;
+}
+.arts header{
+	padding: 3px 10px;
+	font: bold 18px arial;
+	border-bottom: 1px solid #888;
+}
+.arts p{
+	padding: 3px 10px;
+	font: 16px arial;
+}
+.arts footer{
+	padding: 5px 10px;
+	font: 14px arial;
+	border-top: 1px solid #888;
+}
+/* END CONTENT */
+/*#######################################*/
+/* BEGIN SIDEBAR */

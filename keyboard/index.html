@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{margin: 0; padding: 0;}
+		html{
+			background: #eee;
+		}
+		body{
+			box-sizing: border-box;
+			width: 790px;
+			min-height: 100px;
+			padding: 3px;
+			border-radius: 5px;
+			margin: 30px auto;
+		}
+		.bt{
+			box-sizing: border-box;
+			float: left;
+			background: #3d3d3d;
+			border-top: 2px solid #999;
+			border-left: 2px solid #999;
+			border-bottom: 2px solid #222;
+			border-right: 2px solid #222;
+			border-radius: 3px;
+			color: #fff;
+		}
+		.m_key{
+			width: 46px;
+			height: 35px;
+			font: 12px sans-serif;
+			text-align: center;
+		}
+		.key{
+			padding-left: 5px;
+			min-width: 50px;
+			height: 50px;
+			font: 15px sans-serif;
+			line-height: 22px;
+		}
+		.fk{
+			width: 45px;
+			height: 50px;
+			padding: 3px 1px;
+			font: 14px sans-serif;
+			text-align: center;
+		}
+		.arr{
+			width: 44px;
+			height: 32px;
+			font: 15px sans-serif;
+			text-align: center;
+		}
+		#win:after{
+			content: "";
+			display: inline-block;
+			width: 36px;
+			height: 46px;
+			background: url(win.svg);
+			background-repeat: no-repeat;
+		}
+		#c_menu:after{
+			content: "";
+			display: inline-block;
+			width: 36px;
+			height: 46px;
+			background: url(c_menu.svg);
+			background-repeat: no-repeat;
+		}
+
+		.w150p{ width: 75px; }
+		.w180p{ width: 70px; }
+		.w200p{ width: 115px; }
+		.space{ width: 300px; }
+
+		.keyWrap:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		footer{
+			margin-top: 70px;
+			font: italic bold 12px sans-serif;
+			color: #333;
+		}
+	</style>
+	<title>Заголовк</title>
+</head>
+<body>
+	<div class="keyWrap">
+		<div class="bt m_key">Esc</div>
+		<div class="bt m_key">F1 <br> Help</div>
+		<div class="bt m_key">F2</div>
+		<div class="bt m_key">F3</div>
+		<div class="bt m_key">F4</div>
+		<div class="bt m_key">F5</div>
+		<div class="bt m_key">F6</div>
+		<div class="bt m_key">F7</div>
+		<div class="bt m_key">F8</div>
+		<div class="bt m_key">F9</div>
+		<div class="bt m_key">F10</div>
+		<div class="bt m_key">F11</div>
+		<div class="bt m_key">F12</div>
+		<div class="bt m_key">Prt Sc <br> Sys Rq</div>
+		<div class="bt m_key">Pause <br> Break</div>
+		<div class="bt m_key">Insert</div>
+		<div class="bt m_key">Delete</div>
+	</div>
+	<div class="keyWrap">
+		<div class="bt key">~ <br> `</div>
+		<div class="bt key">! <br> 1</div>
+		<div class="bt key">@ <br> 2</div>
+		<div class="bt key"># <br> 3</div>
+		<div class="bt key">$ <br> 4</div>
+		<div class="bt key">% <br> 5</div>
+		<div class="bt key">^ <br> 6</div>
+		<div class="bt key">& <br> 7</div>
+		<div class="bt key">* <br> 8</div>
+		<div class="bt key">( <br> 9</div>
+		<div class="bt key">) <br> 0</div>
+		<div class="bt key">_ <br> -</div>
+		<div class="bt key">+ <br> =</div>
+		<div class="bt key" style="width: ">Backspace <br> &larr;</div>
+		<div class="bt fk">Home</div>
+	</div>
+	<div class="keyWrap">
+		<div class="bt key w150p">Tab</div>
+		<div class="bt key">Q</div>
+		<div class="bt key">W</div>
+		<div class="bt key">E</div>
+		<div class="bt key">R</div>
+		<div class="bt key">T</div>
+		<div class="bt key">Y</div>
+		<div class="bt key">U</div>
+		<div class="bt key">I</div>
+		<div class="bt key">O</div>
+		<div class="bt key">P</div>
+		<div class="bt key">{ <br> [</div>
+		<div class="bt key">} <br> ]</div>
+		<div class="bt key" style="width: 62px">| <br> \</div>
+		<div class="bt fk">PgUp</div>
+	</div>
+	<div class="keyWrap">
+		<div class="bt key">Caps Lock</div>
+		<div class="bt key">A</div>
+		<div class="bt key">S</div>
+		<div class="bt key">D</div>
+		<div class="bt key">F</div>
+		<div class="bt key">G</div>
+		<div class="bt key">H</div>
+		<div class="bt key">J</div>
+		<div class="bt key">K</div>
+		<div class="bt key">L</div>
+		<div class="bt key">: <br> ;</div>
+		<div class="bt key">" <br> '</div>
+		<div class="bt key" style="width: 107px;">Enter &crarr;</div>
+		<div class="bt fk">PgDn</div>
+	</div>
+	<div class="keyWrap">
+		<div class="bt key w200p">Shift &uarr;</div>
+		<div class="bt key">Z</div>
+		<div class="bt key">X</div>
+		<div class="bt key">C</div>
+		<div class="bt key">V</div>
+		<div class="bt key">B</div>
+		<div class="bt key">N</div>
+		<div class="bt key">M</div>
+		<div class="bt key">&lt; <br> ,</div>
+		<div class="bt key">&gt; <br> .</div>
+		<div class="bt key">? <br>/</div>
+		<div class="bt key" style="width: 122px">Shift &uarr;</div>
+		<div class="bt fk">End</div>
+	</div>
+	<div class="keyWrap">
+		<div class="bt key">Ctrl</div>
+		<div class="bt key">Fn</div>
+		<div class="bt key" id="win"></div>
+		<div class="bt key">Alt</div>
+		<div class="bt key space">Space</div>
+		<div class="bt key">Alt</div>
+		<div class="bt key" id="c_menu"></div>
+		<div class="bt key">Ctrl</div>
+		<div class="keyWrap">
+			<div class="bt arr">...</div>
+			<div class="bt arr">&uarr;</div>
+			<div class="bt arr">Fn</div>
+			<div class="bt arr">&larr;</div>
+			<div class="bt arr">&darr;</div>
+			<div class="bt arr">&rarr;</div>
+		</div>
+	</div>
+	<footer>
+		<p>
+			автор: Арутюн Кандилян <br>
+			email: <a href="mailto:harutyun.8925@gmail.com"></a> harutyun.8925@gmail.com
+		</p>
+	</footer>
+</body>
+</html>

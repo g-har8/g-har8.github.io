@@ -1,0 +1,32 @@
+#conteyner{
+	margin: 76px auto 20px auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-gap: 20px;
+	grid-template-rows: repeat(1, auto);
+}
+#arts{grid-column: 1 / 14; grid-row: 1;}
+.arts{
+	background: #FFF;
+	opacity: 0.7;
+	border-radius: 5px;
+	padding: 0 10px;
+} .M-B{margin-bottom: 20px;}
+.arts header{
+	padding: 3px 10px;
+	font: bold 18px arial;
+	border-bottom: 1px solid #888;
+}
+.arts p{
+	padding: 3px 10px;
+	font: 16px arial;
+}
+.arts footer{
+	padding: 5px 10px;
+	font: 14px arial;
+	border-top: 1px solid #888;
+}
+/* END CONTENT */
+/*#######################################*/
+/* BEGIN SIDEBAR */

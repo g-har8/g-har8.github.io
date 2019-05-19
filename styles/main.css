@@ -1,0 +1,215 @@
+/* CSS Document */
+*{margin: 0; padding: 0; border: 0; outline: none; border-spacing: 0; font: 16px tahoma;}
+body{
+	background: fixed url(../img/bg.jpg);
+}
+@font-face {
+    font-family: myicons;
+    src: url(../fonts/myicons.woff);
+ }
+/*#######################################*/
+/* BEGIN HEADER */
+#mainHeader{
+	background: rgba(30, 30, 30, 0.8);
+	/*-moz-backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+#wrapper{
+	height: 56px;
+	max-width: 1154px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 0;
+	grid-template-rows: repeat(1, auto);
+}
+#logo{
+	font: italic bold 30px "times new roman";
+	color: #FFF;
+	padding-top: 8px;
+	grid-column: 1;
+}
+#anim{
+	font: italic bold 30px "times new roman";
+	color: #FFF;
+	display: inline-block;
+	transition: all 0.2s linear;
+}
+#anim:hover{
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+#serch{
+	grid-column: 2 / 5;
+	padding-top: 15px;
+	text-align: center;
+}
+#serch input{
+	font: italic 16px arial;
+	color: #888;
+	padding: 5px;
+	width: 280px;
+	background: rgba(255, 255, 255, 0.02);
+	border-bottom: 1px solid #999;
+}
+#serch input:focus{
+	background: #FFF;
+}
+#mainNan{
+	grid-column: 5 / 7;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+#mainNan hr{
+	content: "";
+	width: 96px;
+	height: 5px;
+	background: #cccccc29;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	margin-left: 0;
+	transition: all 0.4s linear;
+}
+/**/
+#nv1:hover ~ hr{
+	margin-left: 0;
+	background: #CCC;
+}
+#nv2:hover ~ hr{
+	margin-left: 96px;
+	background: #CCC;
+}
+#nv3:hover ~ hr{
+	margin-left: 192px;
+	background: #CCC;
+}
+#nv4:hover ~ hr{
+	margin-left: 288px;
+	background: #CCC;
+}
+/**/
+.navigation{
+	text-align: center;
+	color: #FFF;
+	font: 16px verdana;
+	text-decoration: none;
+	padding-top: 18px;
+	border-bottom: 5px solid rgba(220, 220, 220, 0);
+}
+.navigation:hover{
+	/*border-bottom: 5px solid rgba(220, 220, 220, 1);*/
+	background: rgba(220, 220, 220, 0.1);
+}
+/* END HEADER */
+/*#######################################*/
+/* BEGIN CONTENT */
+/* @@@@@@@@@@@@@@@@@@@ */
+.right{
+	float: right;
+	margin: 0 0 5px 5px;
+}
+.left{
+	float: left;
+	margin: 0 5px 5px 0;
+}
+/* @@@@@@@@@@@@@@@@@@@ */
+/* END CONTENT */
+/*#######################################*/
+/* BEGIN SIDEBAR */
+aside{
+	grid-column: 14 / 18; grid-row: 1;
+	background: rgba(220, 220, 220, 0.5);
+	/*-moz-backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);*/
+	padding: 0 3px;
+}
+.vg{
+	border-bottom: 5px solid #DCDCDC;
+	padding-bottom: 3px;
+}
+.vg header{
+	text-align: center;
+	font: italic bold 20px arial;
+	color: #EEE;
+	text-decoration: underline;
+	padding-bottom: 3px;
+}
+#vNav{
+	list-style: none outside;
+}
+.vNav{
+	text-align: center;
+}
+.vNav a{
+	display: block;
+	text-decoration: none;
+	color: #EEE;
+	font: italic 18px arial;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255,255,255,0);
+	/*transition: all 0.2s linear;*/
+}
+.vNav a:hover{
+	border-bottom: 1px solid #FFF;
+	background: rgba(255, 255, 255, 0.2);
+}
+/* END SIDEBAR */
+/*#######################################*/
+/* BEGIN FOOTER */
+#mainFooter{
+	padding: 10px 0;
+	background: #222;
+	color: #FFF;
+}
+#cx{
+	max-width: 1000px;
+	margin: 0 auto;
+	font: 14px arial;
+	padding: 3px 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 0;
+	grid-template-rows: repeat(1, auto);
+}
+#c1{
+	grid-column: 1;
+}
+#c1 p, #c2 p, #c3 p{padding: 3px 0;}
+#c2{
+	text-align: center;
+	grid-column: 2;
+}
+#c3{
+	grid-column: 3;
+	text-align: right;
+}
+#f1:before{
+	content: "0\0020";
+	font-family: myicons;
+}
+#f1-2:before{
+	content: "2\0020";
+	font-family: myicons;
+}
+#f2:before{
+	content: "1\0020";
+	font-family: myicons;
+}
+#f3:before{
+	content: "\00A9\0020";
+}
+/* END FOOTER */
+/*#######################################*/
+/*.clear{clear: both;}*/
+/* @@@@@@@@@@@@@@@@@@@ */
+/*.vNav:hover::before{
+	content: ">";
+}

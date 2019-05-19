@@ -1,0 +1,29 @@
+#conteyner{
+	margin: 76px auto 20px auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-gap: 20px;
+	grid-template-rows: repeat(1, auto);
+}
+#mainArticle{
+	grid-column: 1 / 14; grid-row: 1;
+	background: rgba(255, 255, 255, 0.7);
+	/*-webkit-backdrop-filter: blur(5px);
+	-moz-backdrop-filter: blur(5px);*/
+	padding: 20px;
+}
+#mainArticle h1{
+	font: italic bold 26px arial;
+	border-bottom: 2px solid #555;
+	padding-bottom: 5px;
+	color: #333;
+}
+#mainArticle h2{
+	font: bold 22px tahoma;
+	padding-bottom: 16px;
+}
+#mainArticle p{
+	font: 17px arial;
+	margin-top: 16px;
+}
