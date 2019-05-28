@@ -1,0 +1,91 @@
+/*CSS Document*/
+*{margin: 0; padding: 0; outline: none; border: none;}
+html{
+	background: #bddaff;
+}
+body{
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+input{
+	background: #f1f1f1;
+	border: 1px solid #888;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#card-wrapper{
+	width: 751px;
+	height: 381px;
+	position: relative;
+}
+#card-back, #card-front{
+	position: absolute;
+	width: 535px;
+	height: 343px;
+	border-radius: 15px;
+}
+#card-back{
+	bottom: 0;
+	right: 0;
+	background: #ececec;
+}
+#card-back:before{
+	content: "";
+	display: block;
+	height: 80px;
+	background: #c0c0c0;
+	margin-top: 50px;
+}
+#cvv{
+	position: absolute;
+	right: 40px;
+	bottom: 112px;
+	width: 100px;
+	padding: 5px;
+	font: 40px sans-serif;
+	text-align: center;
+}
+#card-front{
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+.card-image{
+	height: 60px;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.card-logo{
+	height: 50px;
+	position: absolute;
+	bottom: 40px;
+	right: 30px;
+}
+#card-number{
+	position: absolute;
+	width: 90%;
+	padding: 5px;
+	font: 40px sans-serif;
+	text-align: center;
+	top: 145px;
+	margin: 0 5%;
+}
+#card-to-month, #card-to-year{
+	position: absolute;
+	left: 5%;
+	bottom: 40px;
+	width: 60px;
+	padding: 5px;
+	font: 40px sans-serif;
+	text-align: center;
+}
+#card-to-year{
+	left: 20%;
+}
