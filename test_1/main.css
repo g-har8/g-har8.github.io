@@ -1,0 +1,47 @@
+/*CSS Document*/
+*{
+	margin: 0; padding: 0;
+}
+html{
+	background: #adf;
+}
+div{
+	width: 220px;
+	height: 260px;
+	border: 8px solid #eee;
+	margin: 5% auto;
+	background: #fff;
+	position: relative;
+}
+div *{
+	position: relative;
+	z-index: 1;
+}
+div:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 80px;
+	width: 180px;
+	background: orange;
+	transform: rotate(-10deg);
+	top: 60px;
+	left: 20px;
+}
+h2{
+	font: bold 25px "times new roman";
+	padding: 15px 0;
+	text-align: center;
+	color: #555;
+}
+p{
+	font: 16px sans-serif;
+	padding: 5px 0 5px 12px;
+	line-height: 22px;
+}
+
+footer{
+	padding: 30px 100px;
+	position: absolute;
+	bottom: 0;
+}
