@@ -1,0 +1,111 @@
+*{margin: 0; padding: 0; font: 15px sans-serif;}
+html{
+	background: #333;
+}
+#key{
+	width: 801px;
+	margin: 30px auto;
+	/*outline: 1px solid #0f0;*/
+}
+#key:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.keyWrap{
+	display: table;
+	border-spacing: 2px 1px;
+	width: 801px;
+}
+.keyWrap div{
+	display: table-cell;
+	background: #ccc;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding-left: 3px;
+}
+.m_key div{
+	width: 45px;
+	height: 35px;
+	/*padding-left: 3px;*/
+	font: 12px sans-serif;
+}
+.key{height: 52px;}
+.key div{
+	width: 50px;
+	/*height: 50px;*/
+}
+#tab{
+	width: 74px;
+}
+#cl{
+	width: 90px;
+}
+#enter{
+	width: 90px;
+}
+#fk1, #fk2, #fk3, #fk4{
+	width: 45px;
+	font: 12px sans-serif;
+}
+#backspace{
+	width: 72px;
+}
+#shift_L,#shift_R{
+	width: 115px;
+}
+.dowKey{
+	width: 650px;
+	height: 52px;
+}
+.dowKey div{
+	width: 50px;
+}
+#space{
+	width: 280px;
+}
+#win{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url(win.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+}
+#c_menu{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url(c_menu.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.bt6{
+	width: 151px;
+	float: right;
+}
+.bt6 div{
+	float: left;
+	width: 48.33px;
+	height: 37px;
+	background: #ccc;
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-right: 2px;
+	border-radius: 3px;
+}
+#fn_home::after{
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 35px;
+	background: url(home.svg);
+	background-repeat: no-repeat;
+}
+
+footer{
+	margin-top: 70px;
+	font: italic bold 12px sans-serif;
+	color: #333;
+}
