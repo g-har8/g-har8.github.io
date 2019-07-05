@@ -1,0 +1,79 @@
+/*CSS Document*/
+*{margin: 0; padding: 0;}
+html{
+	background: #D80;
+}
+#wrapp{
+	width: 440px;
+	margin: 80px 0 0 120px;
+	background: rgba(255, 255, 255, 0.3);
+}
+#wrapp:after,.markChar:after,#tab:after,.tr:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.markChar{
+	/*float: left;*/
+
+}
+.markChar:before{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 10px;
+	float: left;
+}
+.markChar>div{
+	float: left;
+	width: 50px;
+	font: 16px sans-serif;
+	text-align: center;
+}
+#markNumL{
+	float: left;
+}
+#markNumR{
+	float: right;
+}
+#markNumL>div,#markNumR>div{
+	height: 50px;
+	width: 20px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	font: 16px sans-serif;
+	text-align: center;
+}
+/*#######################################*/
+#tab{
+	display: inline-block;
+	/*width: 440px;*/
+	background: #FFF;
+}
+.tr:nth-child(odd)>div{
+	margin-left: 50px;
+}
+.tr:nth-child(even)>div{
+	margin-right: 50px;
+}
+.td{
+	float: left;
+	background: hsl(25, 24%, 27%);
+	width: 50px;
+	height: 50px;
+}
+
+.circleWhite{
+	border-radius: 50%;
+	background: #EEE;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+.circleBlack{
+	border-radius: 50%;
+	background: #222;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
