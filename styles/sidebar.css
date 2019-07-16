@@ -137,9 +137,10 @@
 	display: inline-block;
 }
 #window2{
-	display: table-cell;
+	padding-top: 30px;
+	/* display: table-cell;
 	vertical-align: middle;
-	text-align: center;
+	text-align: center; */
 }
 #hello{font: bold 20px tahoma}
 #testbox{
