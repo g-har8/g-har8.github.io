@@ -1,5 +1,6 @@
 /* CSS Document */
 *{margin: 0; padding: 0; border: 0; outline: none; border-spacing: 0; font: 16px tahoma;}
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900i&display=swap');
 body{
 	background: fixed url(../img/bg.jpg);
 }
@@ -28,13 +29,13 @@ body{
 	grid-template-rows: repeat(1, auto);
 }
 #logo{
-	font: italic bold 30px "times new roman";
+	font: italic bold 30px 'Merriweather', serif, 'times new roman';
 	color: #FFF;
 	padding-top: 8px;
 	grid-column: 1;
 }
 #anim{
-	font: italic bold 30px "times new roman";
+	font: italic bold 30px 'Merriweather', serif, 'times new roman';
 	color: #FFF;
 	display: inline-block;
 	transition: all 0.2s linear;
