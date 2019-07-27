@@ -29,13 +29,13 @@ body{
 	grid-template-rows: repeat(1, auto);
 }
 #logo{
-	font: italic bold 30px 'Merriweather', serif, 'times new roman';
+	font: italic bold 30px 'Merriweather', serif;
 	color: #FFF;
 	padding-top: 8px;
 	grid-column: 1;
 }
 #anim{
-	font: italic bold 30px 'Merriweather', serif, 'times new roman';
+	font: italic bold 30px 'Merriweather', serif;
 	color: #FFF;
 	display: inline-block;
 	transition: all 0.2s linear;
