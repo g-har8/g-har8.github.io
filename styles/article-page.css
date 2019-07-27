@@ -14,16 +14,16 @@
 	padding: 20px;
 }
 #mainArticle h1{
-	font: italic bold 26px arial;
+	font: italic bold 26px 'Roboto', sans-serif;
 	border-bottom: 2px solid #555;
 	padding-bottom: 5px;
 	color: #333;
 }
 #mainArticle h2{
-	font: bold 22px tahoma;
+	font: bold 22px 'Merriweather', serif;
 	padding-bottom: 16px;
 }
 #mainArticle p{
-	font: 17px arial;
+	font: 17px 'Roboto', sans-serif;
 	margin-top: 16px;
 }
