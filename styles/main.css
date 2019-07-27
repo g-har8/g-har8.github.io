@@ -1,6 +1,7 @@
 /* CSS Document */
 *{margin: 0; padding: 0; border: 0; outline: none; border-spacing: 0; font: 16px tahoma;}
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i&display=swap');
 body{
 	background: fixed url(../img/bg.jpg);
 }
@@ -100,7 +101,7 @@ body{
 .navigation{
 	text-align: center;
 	color: #FFF;
-	font: 16px verdana;
+	font: 16px 'Roboto', sans-serif /*verdana*/;
 	text-decoration: none;
 	padding-top: 18px;
 	border-bottom: 5px solid rgba(220, 220, 220, 0);
@@ -138,7 +139,7 @@ aside{
 }
 .vg header{
 	text-align: center;
-	font: italic bold 20px arial;
+	font: italic bold 20px 'Roboto';
 	color: #EEE;
 	text-decoration: underline;
 	padding-bottom: 3px;
@@ -153,7 +154,7 @@ aside{
 	display: block;
 	text-decoration: none;
 	color: #EEE;
-	font: italic 18px arial;
+	font: italic 18px 'Roboto';
 	padding-bottom: 5px;
 	border-bottom: 1px solid rgba(255,255,255,0);
 	/*transition: all 0.2s linear;*/
@@ -173,7 +174,7 @@ aside{
 #cx{
 	max-width: 1000px;
 	margin: 0 auto;
-	font: 14px arial;
+	font: 14px 'Roboto';
 	padding: 3px 0;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
