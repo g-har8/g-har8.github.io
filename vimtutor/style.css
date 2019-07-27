@@ -1,0 +1,75 @@
+/*CSS Document*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-width: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Monospace';
+    src: url(fonts/Monospace.woff);
+}
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url(fonts/NotoSans-Regular.ttf);
+}
+html{
+	background: hsl(205, 50%, 70%);
+	/*background: #CCC;*/
+}
+body{
+    width: 850px;
+    margin: 0 auto;
+    padding: 50px;
+    background: white;
+}
+hr{
+	background: #888;
+	background-clip: content-box;
+	height: 1px;
+	padding: 5px 0;
+}
+li{
+	padding: 7px 0;
+	list-style-type: none;
+}
+h1{
+    padding-bottom: 20px;
+    font: bold 25px 'NotoSans-Regular';
+    color: #777;
+}
+h2{
+    padding: 22px 0 16px 0;
+    font: 20px 'NotoSans-Regular';
+    color: #444;
+}
+#link{ color: #444; font: italic bold 17px 'NotoSans-Regular';/* padding: 20px;*/}
+a{ color: #444; font: 17px 'NotoSans-Regular';/* padding: 20px;*/}
+pre{
+    background: #F4F4F4;
+    color: #444;
+    font: 12px Monospace;
+    padding: 20px;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+#top{
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    left: calc(50% - 15px);
+    /*left: 50%;*/
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #444;
+    color: #F4F4F4;
+    text-align: center;
+    font: bold 20px 'NotoSans-Regular';
+}
+#top:after{
+    content: "↑";
+}
+/* .tab:after{content:"\00A0\00A0\00A0\00A0\00A0\00A0\00A0"; font-size: 12px; text-rendering: initial;} */
