@@ -131,8 +131,7 @@
 	font: bold 15px arial;
 	padding: 3px 8px;
 	color: #333;
-	background: rgba(255, 255, 255, 0.3); /* 02 */
-	backdrop-filter: blur(5px); /* bacground-filter */
+	background: rgba(255, 255, 255, 0.2);
 	border: 2px solid #333;
 	border-radius: 5px;
 	display: inline-block;
@@ -163,6 +162,7 @@
 	left: calc(50% - 250px); top: calc(50% - 150px);
 	z-index: 9;
 	background: linear-gradient(180deg, #555 27px, rgba(220, 220, 220, 0.9) 27px, rgba(220, 220, 220, 0.9) 300px);
+	backdrop-filter: blur(5px); /* bacground-filter */
 	outline: 1px solid #888;
 	width: 500px;
 	height: 300px;
